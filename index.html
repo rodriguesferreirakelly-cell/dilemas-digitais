@@ -1,0 +1,550 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dilemas Digitais</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+            color: #183C63;
+        }
+
+        header {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            padding: 30px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        header button {
+            background-color: white;
+            border: none;
+            padding: 10px 18px;
+            margin: 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 0 20px 30px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        article div:first-child {
+            flex: 1;
+        }
+
+        article h2 {
+            color: #183C63;
+        }
+
+        article p {
+            line-height: 1.6;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #6b7280;
+        }
+
+        .imagem {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        article button {
+            border: none;
+            background-color: #e8eef5;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-right: 5px;
+        }
+
+        article button:hover,
+        header button:hover {
+            background-color: #d4adcf;
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 700px) {
+            article {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .imagem {
+                width: 100%;
+                max-width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>💻 Dilemas Digitais</h1>
+
+        <p>
+            Problemas do mundo digital e soluções que podem ser criadas
+            através da tecnologia e da programação.
+        </p>
+
+        <button>
+            ❤️ <span>0</span>
+        </button>
+
+        <button>
+            👍 <span>0</span>
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- Dilema 1 -->
+
+        <article>
+
+            <div>
+
+                <h2>🔐 Privacidade na Internet</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    Atualmente, muitos aplicativos e sites coletam informações
+                    pessoais dos usuários. O problema é que muitas pessoas não
+                    sabem quais dados estão sendo armazenados ou como eles estão
+                    sendo utilizados.
+                </p>
+
+                <p>
+                    <strong>💡 Proposta de solução:</strong>
+                    criar sistemas que informem claramente quais dados estão
+                    sendo coletados e permitam que o usuário escolha quais
+                    informações deseja compartilhar.
+                </p>
+
+                <p>
+                    Com programação, podemos desenvolver telas de consentimento,
+                    sistemas de controle de dados e ferramentas para excluir
+                    informações pessoais.
+                </p>
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+                <button>
+                    👎 <span>0</span>
+                </button>
+
+            </div>
+
+            <div>
+                <img
+                    src="imagem-blog.png"
+                    alt="Representação de segurança digital"
+                    class="imagem">
+            </div>
+
+        </article>
+
+
+        <!-- Dilema 2 -->
+
+        <article>
+
+            <div>
+
+                <h2>🤖 Inteligência Artificial e Fake News</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    A inteligência artificial pode produzir textos, imagens e
+                    vídeos muito realistas. Isso pode facilitar a criação e a
+                    divulgação de informações falsas na internet.
+                </p>
+
+                <p>
+                    <strong>💡 Proposta de solução:</strong>
+                    desenvolver sistemas capazes de analisar conteúdos digitais
+                    e indicar possíveis sinais de desinformação.
+                </p>
+
+                <p>
+                    Programas podem utilizar bancos de dados, análise de texto
+                    e inteligência artificial para ajudar o usuário a verificar
+                    informações antes de compartilhá-las.
+                </p>
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+                <button>
+                    👎 <span>0</span>
+                </button>
+
+            </div>
+
+            <div>
+                <img
+                    src="imagem-blog.png"
+                    alt="Inteligência artificial e informação digital"
+                    class="imagem">
+            </div>
+
+        </article>
+
+
+        <!-- Dilema 3 -->
+
+        <article>
+
+            <div>
+
+                <h2>📱 Uso Excessivo das Redes Sociais</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    As redes sociais fazem parte da rotina de milhões de
+                    pessoas. Porém, o uso excessivo pode prejudicar a
+                    concentração e fazer com que o usuário passe muito tempo
+                    conectado.
+                </p>
+
+                <p>
+                    <strong>💡 Proposta de solução:</strong>
+                    criar aplicativos que monitorem o tempo de uso e enviem
+                    lembretes quando o usuário ultrapassar um limite definido.
+                </p>
+
+                <p>
+                    A programação pode ser utilizada para criar temporizadores,
+                    gráficos de utilização e notificações que incentivem hábitos
+                    digitais mais saudáveis.
+                </p>
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+                <button>
+                    👎 <span>0</span>
+                </button>
+
+            </div>
+
+            <div>
+                <img
+                    src="imagem-blog.png"
+                    alt="Pessoa utilizando redes sociais"
+                    class="imagem">
+            </div>
+
+        </article>
+
+
+        <!-- Dilema 4 -->
+
+        <article>
+
+            <div>
+
+                <h2>🛡️ Cyberbullying</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    O cyberbullying acontece quando alguém utiliza a internet
+                    para ofender, ameaçar ou humilhar outra pessoa. Comentários
+                    ofensivos podem se espalhar rapidamente e atingir muitas
+                    pessoas.
+                </p>
+
+                <p>
+                    <strong>💡 Proposta de solução:</strong>
+                    desenvolver ferramentas capazes de identificar palavras
+                    ofensivas e facilitar a denúncia de conteúdos abusivos.
+                </p>
+
+                <p>
+                    Com programação, podemos criar filtros, sistemas de
+                    denúncia e mecanismos que encaminhem conteúdos suspeitos
+                    para análise humana.
+                </p>
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+                <button>
+                    👎 <span>0</span>
+                </button>
+
+            </div>
+
+            <div>
+                <img
+                    src="imagem-blog.png"
+                    alt="Proteção contra cyberbullying"
+                    class="imagem">
+            </div>
+
+        </article>
+
+
+        <!-- Dilema 5 -->
+
+        <article>
+
+            <div>
+
+                <h2>🌱 Tecnologia e Sustentabilidade</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    O crescimento da tecnologia também aumenta o consumo de
+                    energia e a quantidade de lixo eletrônico produzido.
+                    Computadores, celulares e outros dispositivos precisam ser
+                    descartados corretamente.
+                </p>
+
+                <p>
+                    <strong>💡 Proposta de solução:</strong>
+                    criar plataformas que indiquem pontos de coleta e
+                    reciclagem de equipamentos eletrônicos.
+                </p>
+
+                <p>
+                    A programação pode ajudar a criar mapas, sistemas de busca
+                    e aplicativos que conectem pessoas a locais de descarte
+                    adequado.
+                </p>
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+                <button>
+                    👎 <span>0</span>
+                </button>
+
+            </div>
+
+            <div>
+                <img
+                    src="imagem-blog.png"
+                    alt="Tecnologia e sustentabilidade"
+                    class="imagem">
+            </div>
+
+        </article>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Dilemas Digitais | Desenvolvido por Alexandra
+        </p>
+
+        <p>
+            Tecnologia para compreender problemas e construir soluções.
+        </p>
+
+    </footer>
+
+
+    <script>
+
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach(function (botao) {
+
+            let curtiu = false;
+
+            botao.addEventListener("click", function () {
+
+                const texto = botao.querySelector("span");
+
+                if (curtiu === false) {
+
+                    texto.textContent =
+                        Number(texto.textContent) + 1;
+
+                    curtiu = true;
+
+                } else {
+
+                    texto.textContent =
+                        Number(texto.textContent) - 1;
+
+                    curtiu = false;
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
